@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16E195" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="LOCATION" representedClassName="LOCATION" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="Integer 32" usesScalarValueType="YES" indexed="YES" syncable="YES"/>
+        <attribute name="locationname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="OSM" representedClassName="OSM" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="osname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PCINFOMATION" representedClassName="PCINFOMATION" syncable="YES" codeGenerationType="class">
+        <attribute name="damagedcheck" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="delflag" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="insertdate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="locationid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="model" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="officecheck" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="osid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="pcno" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="securitycheck" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="updatedate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="USER" representedClassName="USER" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="Integer 32" usesScalarValueType="YES" indexed="YES" syncable="YES"/>
+        <attribute name="pass" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="OSM" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="PCINFOMATION" positionX="-54" positionY="9" width="128" height="210"/>
+        <element name="LOCATION" positionX="-36" positionY="27" width="128" height="75"/>
+        <element name="USER" positionX="-18" positionY="108" width="128" height="90"/>
+    </elements>
+</model>
